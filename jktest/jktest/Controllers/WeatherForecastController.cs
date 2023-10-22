@@ -36,7 +36,7 @@ namespace jktest.Controllers
         {
             await Task.CompletedTask;
 
-            return "第一次发布";
+            return "第二次发布";
         }
     }
 }
