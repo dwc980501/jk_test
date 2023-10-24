@@ -4,4 +4,4 @@ FROM mcr.microsoft.com/dotnet/aspnet:6.0
 WORKDIR /app
 EXPOSE 80
 COPY . .
-ENTRYPOINT ["dotnet", "jktest.dll","--urls","http://*:80"]
+ENTRYPOINT ["dotnet", "jktest/jktest.dll","--urls","http://*:80"]
